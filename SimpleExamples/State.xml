@@ -3,23 +3,15 @@
 <NumElts>4</NumElts>
 <Array>
 <Name>Array</Name>
-<Dimsize>3</Dimsize>
+<Dimsize>0</Dimsize>
 <DBL>
 <Name>Numeric</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Numeric</Name>
-<Val>40.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Numeric</Name>
-<Val>3.00000000000000</Val>
+<Val></Val>
 </DBL>
 </Array>
 <String>
 <Name>String</Name>
-<Val>hi</Val>
+<Val></Val>
 </String>
 <DBL>
 <Name>Numeric</Name>
@@ -27,6 +19,6 @@
 </DBL>
 <DBL>
 <Name>Numeric 2</Name>
-<Val>4.00000000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 </Cluster>
