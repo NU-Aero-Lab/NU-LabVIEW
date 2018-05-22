@@ -1,0 +1,24 @@
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>4</NumElts>
+<Array>
+<Name>Array</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val></Val>
+</DBL>
+</Array>
+<String>
+<Name>String</Name>
+<Val></Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>2.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric 2</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
