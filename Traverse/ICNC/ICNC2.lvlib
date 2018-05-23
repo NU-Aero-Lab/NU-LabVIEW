@@ -48,7 +48,7 @@
 	<Item Name="ICNC Push Pulses Data.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC Push Pulses Data.vi"/>
 	<Item Name="ICNC Ramp Down Abs Buf.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC Ramp Down Abs Buf.vi"/>
 	<Item Name="ICNC Ramp Up Abs Buf.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC Ramp Up Abs Buf.vi"/>
-	<Item Name="ICNC Read EEPROM.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Read/ICNC Read EEPROM.vi"/>
+	<Item Name="ICNC Read EEPROM.vi" Type="VI" URL="/&lt;menus&gt;/Categories/ICNC/ICNC_Read/ICNC Read EEPROM.vi"/>
 	<Item Name="ICNC Read Parameter.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Read/ICNC Read Parameter.vi"/>
 	<Item Name="ICNC Read User Mem.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Read/ICNC Read User Mem.vi"/>
 	<Item Name="ICNC Set Analog Buf.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Set/ICNC Set Analog Buf.vi"/>
@@ -77,7 +77,7 @@
 	<Item Name="ICNC User MB Bit Dlg.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Dlg/ICNC User MB Bit Dlg.vi"/>
 	<Item Name="ICNC Wait Buf.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC Wait Buf.vi"/>
 	<Item Name="ICNC Wait Input State Buf.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC Wait Input State Buf.vi"/>
-	<Item Name="ICNC Write EEPROM.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Write/ICNC Write EEPROM.vi"/>
+	<Item Name="ICNC Write EEPROM.vi" Type="VI" URL="/&lt;menus&gt;/Categories/ICNC/ICNC_Write/ICNC Write EEPROM.vi"/>
 	<Item Name="ICNC Write Parameter.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Write/ICNC Write Parameter.vi"/>
 	<Item Name="ICNC Write Position.vi" Type="VI" URL="../ICNC_Write/ICNC Write Position.vi"/>
 	<Item Name="ICNC Write User Mem Buf.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Write/ICNC Write User Mem Buf.vi"/>
