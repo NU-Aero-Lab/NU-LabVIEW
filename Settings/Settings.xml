@@ -51,11 +51,11 @@
 </Array>
 <DBL>
 <Name>Speed</Name>
-<Val>150.00000000000000</Val>
+<Val>50.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Pulse/Degree</Name>
-<Val>55.55550000000000</Val>
+<Val>55.55555000000000</Val>
 </DBL>
 <Array>
 <Name>Degre Factor</Name>
