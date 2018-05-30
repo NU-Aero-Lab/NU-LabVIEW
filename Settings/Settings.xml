@@ -38,15 +38,15 @@
 <Dimsize>3</Dimsize>
 <DBL>
 <Name>Numeric</Name>
-<Val>50.00000000000000</Val>
+<Val>75.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Numeric</Name>
-<Val>50.00000000000000</Val>
+<Val>75.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Numeric</Name>
-<Val>50.00000000000000</Val>
+<Val>20.00000000000000</Val>
 </DBL>
 </Array>
 <DBL>
@@ -86,7 +86,7 @@
 </DBL>
 <DBL>
 <Name>Numeric</Name>
-<Val>1.00000000000000</Val>
+<Val>105.00000000000000</Val>
 </DBL>
 </Array>
 </Cluster>
