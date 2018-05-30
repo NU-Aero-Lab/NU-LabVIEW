@@ -55,7 +55,7 @@
 </DBL>
 <DBL>
 <Name>Pulse/Degree</Name>
-<Val>55.55550000000000</Val>
+<Val>55.55555000000000</Val>
 </DBL>
 <Array>
 <Name>Degre Factor</Name>
@@ -86,7 +86,7 @@
 </DBL>
 <DBL>
 <Name>Numeric</Name>
-<Val>3.80000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 </Array>
 </Cluster>
