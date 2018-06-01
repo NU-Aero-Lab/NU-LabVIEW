@@ -34,7 +34,7 @@
 	<Item Name="ICNC Move Arc XY Buf.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Move/ICNC Move Arc XY Buf.vi"/>
 	<Item Name="ICNC Move Profile Abs Async.vi" Type="VI" URL="../ICNC_Move/ICNC Move Profile Abs Async.vi"/>
 	<Item Name="ICNC Move Profile Abs Buf.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Move/ICNC Move Profile Abs Buf.vi"/>
-	<Item Name="ICNC Move Profile Rel Async.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Move/ICNC Move Profile Rel Async.vi"/>
+	<Item Name="ICNC Move Profile Rel Async.vi" Type="VI" URL="/&lt;menus&gt;/Categories/ICNC/ICNC_Move/ICNC Move Profile Rel Async.vi"/>
 	<Item Name="ICNC Move Profile Rel Buf.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Move/ICNC Move Profile Rel Buf.vi"/>
 	<Item Name="ICNC Move Speed Abs Buf.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Move/ICNC Move Speed Abs Buf.vi"/>
 	<Item Name="ICNC Move Speed Abs Local Buf.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Move/ICNC Move Speed Abs Local Buf.vi"/>
