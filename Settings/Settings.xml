@@ -22,15 +22,15 @@
 <Dimsize>3</Dimsize>
 <DBL>
 <Name>Numeric</Name>
-<Val>40.00000000000000</Val>
+<Val>50.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Numeric</Name>
-<Val>40.00000000000000</Val>
+<Val>50.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Numeric</Name>
-<Val>40.00000000000000</Val>
+<Val>50.00000000000000</Val>
 </DBL>
 </Array>
 <Array>
@@ -55,7 +55,7 @@
 </DBL>
 <DBL>
 <Name>Pulse/Degree</Name>
-<Val>55.55550000000000</Val>
+<Val>55.55555000000000</Val>
 </DBL>
 <Array>
 <Name>Degre Factor</Name>
@@ -70,7 +70,7 @@
 </DBL>
 <DBL>
 <Name>Numeric</Name>
-<Val>3.42857100000000</Val>
+<Val>3.42710000000000</Val>
 </DBL>
 </Array>
 <Array>
@@ -86,7 +86,7 @@
 </DBL>
 <DBL>
 <Name>Numeric</Name>
-<Val>100.00000000000000</Val>
+<Val>105.00000000000000</Val>
 </DBL>
 </Array>
 <Array>
