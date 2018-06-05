@@ -55,7 +55,7 @@
 </DBL>
 <DBL>
 <Name>Pulse/Degree</Name>
-<Val>55.55555000000000</Val>
+<Val>55.55550000000000</Val>
 </DBL>
 <Array>
 <Name>Degre Factor</Name>
@@ -89,20 +89,8 @@
 <Val>105.00000000000000</Val>
 </DBL>
 </Array>
-<Array>
-<Name>Position</Name>
-<Dimsize>3</Dimsize>
-<DBL>
-<Name>Numeric</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Numeric</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Numeric</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-</Array>
+<String>
+<Name>Traverse Name</Name>
+<Val>Wind Tunnel</Val>
+</String>
 </Cluster>
