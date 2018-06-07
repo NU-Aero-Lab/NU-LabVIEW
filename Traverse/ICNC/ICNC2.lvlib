@@ -17,7 +17,7 @@
 	<Item Name="ICNC Flush Local Buf.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC Flush Local Buf.vi"/>
 	<Item Name="ICNC Freeze Buf.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC Freeze Buf.vi"/>
 	<Item Name="ICNC Get Analog.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Get/ICNC Get Analog.vi"/>
-	<Item Name="ICNC Get Board Status.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Get/ICNC Get Board Status.vi"/>
+	<Item Name="ICNC Get Board Status.vi" Type="VI" URL="/&lt;menus&gt;/Categories/ICNC/ICNC_Get/ICNC Get Board Status.vi"/>
 	<Item Name="ICNC Get Buffer Status.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Get/ICNC Get Buffer Status.vi"/>
 	<Item Name="ICNC Get Cutting Speed.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Get/ICNC Get Cutting Speed.vi"/>
 	<Item Name="ICNC Get DLL Version.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Get/ICNC Get DLL Version.vi"/>
