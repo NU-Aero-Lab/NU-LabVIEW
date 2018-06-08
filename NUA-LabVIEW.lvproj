@@ -348,7 +348,6 @@
 			<Item Name="move X.vi" Type="VI" URL="../Traverse/Librairie ICNC Exemple/move X.vi"/>
 			<Item Name="move Y.vi" Type="VI" URL="../Traverse/Librairie ICNC Exemple/move Y.vi"/>
 			<Item Name="move Z.vi" Type="VI" URL="../Traverse/Librairie ICNC Exemple/move Z.vi"/>
-			<Item Name="Move-Axis-Sync.vi" Type="VI" URL="../Traverse/Wind Tunnel Traverse/Move-Axis-Sync.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
