@@ -3,6 +3,7 @@
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
+	<Property Name="varPersistentID:{612FC08F-62FE-4C81-B396-7F915B943964}" Type="Ref">/My Computer/NU-LabVIEW/SharedVariables.lvlib/MainTunnelVelocity</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -312,7 +313,6 @@
 			</Item>
 			<Item Name="AISetup.vi" Type="VI" URL="../WTControl/AISetup.vi"/>
 			<Item Name="AO.vi" Type="VI" URL="../WTControl/AO.vi"/>
-			<Item Name="DistanceCalculator.vi" Type="VI" URL="../SimpleExamples/DistanceCalculator.vi"/>
 			<Item Name="ICNC Get Board Status.vi" Type="VI" URL="/&lt;menus&gt;/Categories/ICNC/ICNC_Get/ICNC Get Board Status.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="move X.vi" Type="VI" URL="../Traverse/Librairie ICNC Exemple/move X.vi"/>
