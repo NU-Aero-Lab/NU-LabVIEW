@@ -1,20 +1,36 @@
 <Cluster>
 <Name>Position Info</Name>
-<NumElts>4</NumElts>
+<NumElts>5</NumElts>
 <Array>
 <Name>Current Position ABS</Name>
-<Dimsize>0</Dimsize>
+<Dimsize>3</Dimsize>
 <DBL>
 <Name>Numeric</Name>
-<Val></Val>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
 </DBL>
 </Array>
 <Array>
-<Name>Current Position</Name>
-<Dimsize>0</Dimsize>
+<Name>Move to</Name>
+<Dimsize>3</Dimsize>
 <DBL>
 <Name>Numeric</Name>
-<Val></Val>
+<Val>1300.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>450.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>-270.00000000000000</Val>
 </DBL>
 </Array>
 <Array>
@@ -32,5 +48,13 @@
 <Name>String</Name>
 <Val></Val>
 </String>
+</Array>
+<Array>
+<Name>Current Position Ref</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val></Val>
+</DBL>
 </Array>
 </Cluster>
