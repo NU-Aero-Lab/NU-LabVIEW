@@ -1,16 +1,36 @@
+<Cluster>
+<Name>Position Info</Name>
+<NumElts>4</NumElts>
 <Array>
-<Name>Position</Name>
-<Dimsize>3</Dimsize>
+<Name>Current Position ABS</Name>
+<Dimsize>0</Dimsize>
 <DBL>
 <Name>Numeric</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Numeric</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Numeric</Name>
-<Val>0.00000000000000</Val>
+<Val></Val>
 </DBL>
 </Array>
+<Array>
+<Name>Current Position</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val></Val>
+</DBL>
+</Array>
+<Array>
+<Name>Reference Position</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val></Val>
+</DBL>
+</Array>
+<Array>
+<Name>Axis Names</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>String</Name>
+<Val></Val>
+</String>
+</Array>
+</Cluster>
