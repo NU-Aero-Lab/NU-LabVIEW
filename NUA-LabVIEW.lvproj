@@ -3,21 +3,12 @@
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
-	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Property Name="varPersistentID:{06FEA713-B0F1-48EA-9D32-ECF256A4B361}" Type="Ref">/My Computer/NU-LabVIEW/SharedVariables.lvlib/MainWindTunnelVelocity-MWTV</Property>
 	<Property Name="varPersistentID:{07BF13B2-7348-4508-B09D-667979C1A52D}" Type="Ref">/My Computer/NU-LabVIEW/SharedVariables.lvlib/MainWindTunnelTemperature-MWTT</Property>
 	<Property Name="varPersistentID:{21881788-12BF-41B7-B0F9-155CC43AD193}" Type="Ref">/My Computer/NU-LabVIEW/SharedVariables.lvlib/LabATmosphericPressure-LATP</Property>
 	<Property Name="varPersistentID:{BAB18D97-12E3-4F46-AC22-6B8EA5C63BF6}" Type="Ref">/My Computer/NU-LabVIEW/SharedVariables.lvlib/LATP-Live</Property>
 	<Property Name="varPersistentID:{E36027D6-C1FF-47DF-8C8F-FB987E452FD7}" Type="Ref">/My Computer/NU-LabVIEW/SharedVariables.lvlib/MainWindTunnelPressure-MWTP</Property>
 	<Item Name="My Computer" Type="My Computer">
-		<Property Name="IOScan.Faults" Type="Str"></Property>
-		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
-		<Property Name="IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
-		<Property Name="IOScan.Period" Type="UInt">10000</Property>
-		<Property Name="IOScan.PowerupMode" Type="UInt">0</Property>
-		<Property Name="IOScan.Priority" Type="UInt">9</Property>
-		<Property Name="IOScan.ReportModeConflict" Type="Bool">true</Property>
-		<Property Name="IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -32,7 +23,14 @@
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
+				<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/sous-VI/Error Converter (ErrCode or Status).vi"/>
+				<Item Name="ICNC Connect.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Connect/ICNC Connect.vi"/>
+				<Item Name="ICNC Error Reset.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC Error Reset.vi"/>
+				<Item Name="ICNC Move Profile Abs Async.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Move/ICNC Move Profile Abs Async.vi"/>
+				<Item Name="ICNC Parameters Dlg.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Dlg/ICNC Parameters Dlg.vi"/>
+				<Item Name="ICNC Write Position.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Write/ICNC Write Position.vi"/>
 				<Item Name="ICNC2.dll" Type="Document" URL="/&lt;userlib&gt;/ICNC/ICNC2.dll"/>
+				<Item Name="ICNC2.lvlib" Type="Library" URL="/&lt;userlib&gt;/ICNC/ICNC2.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -354,6 +352,8 @@
 			</Item>
 			<Item Name="AISetup.vi" Type="VI" URL="../WTControl/AISetup.vi"/>
 			<Item Name="AO.vi" Type="VI" URL="../WTControl/AO.vi"/>
+			<Item Name="ICNC Get Board Status.vi" Type="VI" URL="/&lt;menus&gt;/Categories/ICNC/ICNC_Get/ICNC Get Board Status.vi"/>
+			<Item Name="ICNC Move Profile Rel Async.vi" Type="VI" URL="/&lt;menus&gt;/Categories/ICNC/ICNC_Move/ICNC Move Profile Rel Async.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
