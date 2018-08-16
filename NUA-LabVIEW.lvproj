@@ -33,10 +33,18 @@
 		<Item Name="NU-LabVIEW" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="beat_test.vi" Type="VI" URL="../../../../Desktop/Measurments/beat_test.vi"/>
 		<Item Name="Sensor Tests.vi" Type="VI" URL="../../../../Desktop/Sensor Tests.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
+				<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/sous-VI/Error Converter (ErrCode or Status).vi"/>
+				<Item Name="ICNC Connect.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Connect/ICNC Connect.vi"/>
+				<Item Name="ICNC Error Reset.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC Error Reset.vi"/>
+				<Item Name="ICNC Move Profile Abs Async.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Move/ICNC Move Profile Abs Async.vi"/>
+				<Item Name="ICNC Parameters Dlg.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Dlg/ICNC Parameters Dlg.vi"/>
+				<Item Name="ICNC Write Position.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Write/ICNC Write Position.vi"/>
 				<Item Name="ICNC2.dll" Type="Document" URL="/&lt;userlib&gt;/ICNC/ICNC2.dll"/>
+				<Item Name="ICNC2.lvlib" Type="Library" URL="/&lt;userlib&gt;/ICNC/ICNC2.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
