@@ -8,8 +8,12 @@
 	<Property Name="varPersistentID:{06FEA713-B0F1-48EA-9D32-ECF256A4B361}" Type="Ref">/My Computer/NU-LabVIEW/SharedVariables.lvlib/MainWindTunnelVelocity-MWTV</Property>
 	<Property Name="varPersistentID:{07BF13B2-7348-4508-B09D-667979C1A52D}" Type="Ref">/My Computer/NU-LabVIEW/SharedVariables.lvlib/MainWindTunnelTemperature-MWTT</Property>
 	<Property Name="varPersistentID:{21881788-12BF-41B7-B0F9-155CC43AD193}" Type="Ref">/My Computer/NU-LabVIEW/SharedVariables.lvlib/LabATmosphericPressure-LATP</Property>
+	<Property Name="varPersistentID:{3761FDBB-BB2B-4506-B678-26CE57E583E7}" Type="Ref">/My Computer/NU-LabVIEW/SharedVariables.lvlib/NumDataPointsWindTunnelPressure-NWTP</Property>
+	<Property Name="varPersistentID:{A6344158-AC7D-4D13-B5AA-68004624EF7E}" Type="Ref">/My Computer/NU-LabVIEW/SharedVariables.lvlib/StandardDeviationWindTunnelPressure-SWTP</Property>
 	<Property Name="varPersistentID:{BAB18D97-12E3-4F46-AC22-6B8EA5C63BF6}" Type="Ref">/My Computer/NU-LabVIEW/SharedVariables.lvlib/LATP-Live</Property>
 	<Property Name="varPersistentID:{C75D8D52-26AE-4BEF-A8AF-DA3082050CB5}" Type="Ref">/My Computer/NU-LabVIEW/SharedVariables.lvlib/LabAtmosphericDensity-LATD</Property>
+	<Property Name="varPersistentID:{D8257424-856F-4D47-A134-F77C3A2256CF}" Type="Ref">/My Computer/NU-LabVIEW/SharedVariables.lvlib/MaxWindTunnelPressure-UWTP</Property>
+	<Property Name="varPersistentID:{DDBF3ED8-E9F9-4B56-813F-1FBB83E59DA8}" Type="Ref">/My Computer/NU-LabVIEW/SharedVariables.lvlib/MinWindTunnelPressure-LWTP</Property>
 	<Property Name="varPersistentID:{E36027D6-C1FF-47DF-8C8F-FB987E452FD7}" Type="Ref">/My Computer/NU-LabVIEW/SharedVariables.lvlib/MainWindTunnelPressure-MWTP</Property>
 	<Property Name="varPersistentID:{F203319F-5ED8-4F00-A6E8-7A8BFD242A1F}" Type="Ref">/My Computer/NU-LabVIEW/SharedVariables.lvlib/LabAtmosphericTemperature-LATT</Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -315,7 +319,6 @@
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 				<Item Name="LabVIEWHTTPClient.lvlib" Type="Library" URL="/&lt;vilib&gt;/httpClient/LabVIEWHTTPClient.lvlib"/>
 				<Item Name="LabVIEWSMTPClient.lvlib" Type="Library" URL="/&lt;vilib&gt;/smtpClient/LabVIEWSMTPClient.lvlib"/>
-				<Item Name="LMH-LINX.lvlib" Type="Library" URL="/&lt;vilib&gt;/MakerHub/LINX/LMH-LINX.lvlib"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
 				<Item Name="LV70TimeStampToDateRec.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70TimeStampToDateRec.vi"/>
@@ -342,13 +345,10 @@
 				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
-				<Item Name="Read.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/AI/VIs/Read.vi"/>
-				<Item Name="Reset myRIO.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Utilities/VIs/Reset myRIO.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="SetT0.vi" Type="VI" URL="/&lt;vilib&gt;/express/express signal manip/GetorSetDDTAttributes/Set DDT Attributes/SetT0.vi"/>
-				<Item Name="Smart Open.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/AI/VIs/Smart Open.vi"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
@@ -362,9 +362,6 @@
 				<Item Name="Timestamp Subtract.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Subtract.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="usiDataType.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_EditUserDefinedProperties/usiDataType.ctl"/>
-				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
 				<Item Name="Waveform Time to Date Time String.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTFileIO.llb/Waveform Time to Date Time String.vi"/>
 				<Item Name="WDT Get Waveform Time Array DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Waveform Time Array DBL.vi"/>
@@ -382,9 +379,6 @@
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
-			</Item>
-			<Item Name="liblinxdevice.dll" Type="Document" URL="liblinxdevice.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
