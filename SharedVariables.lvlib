@@ -113,7 +113,7 @@
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"=!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"=!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="StandardDeviationWindTunnelPressure-SWTP" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>

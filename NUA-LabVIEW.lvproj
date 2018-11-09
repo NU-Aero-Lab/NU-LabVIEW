@@ -41,12 +41,6 @@
 		<Item Name="Sensor Tests.vi" Type="VI" URL="../../../../Desktop/Sensor Tests.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/sous-VI/Error Converter (ErrCode or Status).vi"/>
-				<Item Name="ICNC Connect.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Connect/ICNC Connect.vi"/>
-				<Item Name="ICNC Error Reset.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC Error Reset.vi"/>
-				<Item Name="ICNC Move Profile Abs Async.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Move/ICNC Move Profile Abs Async.vi"/>
-				<Item Name="ICNC Parameters Dlg.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Dlg/ICNC Parameters Dlg.vi"/>
-				<Item Name="ICNC Write Position.vi" Type="VI" URL="/&lt;userlib&gt;/ICNC/ICNC_Write/ICNC Write Position.vi"/>
 				<Item Name="ICNC2.dll" Type="Document" URL="/&lt;userlib&gt;/ICNC/ICNC2.dll"/>
 				<Item Name="ICNC2.lvlib" Type="Library" URL="/&lt;userlib&gt;/ICNC/ICNC2.lvlib"/>
 			</Item>
@@ -267,6 +261,7 @@
 				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="Error to Warning.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error to Warning.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="ex_BackUpExistFile.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/ExFileWriteBlock.llb/ex_BackUpExistFile.vi"/>
@@ -349,6 +344,7 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="SetT0.vi" Type="VI" URL="/&lt;vilib&gt;/express/express signal manip/GetorSetDDTAttributes/Set DDT Attributes/SetT0.vi"/>
+				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
@@ -379,7 +375,20 @@
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
+				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
+				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
+				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
+				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
+			<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="../Traverse/ICNC/sous-VI/Error Converter (ErrCode or Status).vi"/>
+			<Item Name="ICNC Connect.vi" Type="VI" URL="../Traverse/ICNC/ICNC_Connect/ICNC Connect.vi"/>
+			<Item Name="ICNC Error Reset.vi" Type="VI" URL="../Traverse/ICNC/ICNC Error Reset.vi"/>
+			<Item Name="ICNC Move Profile Abs Async.vi" Type="VI" URL="../Traverse/ICNC/ICNC_Move/ICNC Move Profile Abs Async.vi"/>
+			<Item Name="ICNC Read EEPROM.vi" Type="VI" URL="/&lt;menus&gt;/Categories/ICNC/ICNC_Read/ICNC Read EEPROM.vi"/>
+			<Item Name="ICNC Stop Motors All And Clear.vi" Type="VI" URL="../Traverse/ICNC/ICNC_Stop/ICNC Stop Motors All And Clear.vi"/>
+			<Item Name="ICNC Write EEPROM.vi" Type="VI" URL="/&lt;menus&gt;/Categories/ICNC/ICNC_Write/ICNC Write EEPROM.vi"/>
+			<Item Name="ICNC Write Position.vi" Type="VI" URL="../Traverse/ICNC/ICNC_Write/ICNC Write Position.vi"/>
+			<Item Name="ICNC2.lvlib" Type="Library" URL="../Traverse/ICNC/ICNC2.lvlib"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
