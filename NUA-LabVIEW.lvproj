@@ -10,6 +10,9 @@
 	<Property Name="varPersistentID:{21881788-12BF-41B7-B0F9-155CC43AD193}" Type="Ref">/My Computer/NU-LabVIEW/SharedVariables.lvlib/LabATmosphericPressure-LATP</Property>
 	<Property Name="varPersistentID:{295195B9-E93B-45D4-896F-9C45B3EDEC91}" Type="Ref">/My Computer/NU-LabVIEW/SharedVariables.lvlib/ChellScanner64</Property>
 	<Property Name="varPersistentID:{3761FDBB-BB2B-4506-B678-26CE57E583E7}" Type="Ref">/My Computer/NU-LabVIEW/SharedVariables.lvlib/NumDataPointsWindTunnelPressure-NWTP</Property>
+	<Property Name="varPersistentID:{48623F32-EF03-40AD-9D6C-65DB313E3425}" Type="Ref">/My Computer/NU-LabVIEW/SharedVariables.lvlib/LabAtmosphericPressure2-LATP2</Property>
+	<Property Name="varPersistentID:{4A14BCC8-3487-489E-B391-22EB2D9076A1}" Type="Ref">/My Computer/NU-LabVIEW/SharedVariables.lvlib/LabAtmosphericTemperature2-LATT2</Property>
+	<Property Name="varPersistentID:{6DB8036D-F804-4F48-8D65-4CE41AC74B41}" Type="Ref">/My Computer/NU-LabVIEW/SharedVariables.lvlib/LabAtmosphericDensity2-LATD2</Property>
 	<Property Name="varPersistentID:{7C6416A0-093C-4F1F-8462-29EC95573AE4}" Type="Ref">/My Computer/NU-LabVIEW/SharedVariables.lvlib/ForceBalance6</Property>
 	<Property Name="varPersistentID:{A6344158-AC7D-4D13-B5AA-68004624EF7E}" Type="Ref">/My Computer/NU-LabVIEW/SharedVariables.lvlib/StandardDeviationWindTunnelPressure-SWTP</Property>
 	<Property Name="varPersistentID:{BAB18D97-12E3-4F46-AC22-6B8EA5C63BF6}" Type="Ref">/My Computer/NU-LabVIEW/SharedVariables.lvlib/LATP-Live</Property>
