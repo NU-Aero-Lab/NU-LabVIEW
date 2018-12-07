@@ -52,6 +52,9 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="3D Plot Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/3D Plot Datatype/3D Plot Datatype.lvclass"/>
 				<Item Name="3D Plot.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/3D Plot/3D Plot.lvclass"/>
+				<Item Name="3D Scatter Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Scatter/3D Scatter Datatype/3D Scatter Datatype.lvclass"/>
+				<Item Name="3D Scatter.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Scatter/3D Scatter/3D Scatter.lvclass"/>
+				<Item Name="3D Scatter.xctl" Type="XControl" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Scatter/3D Scatter XCtrl/3D Scatter.xctl"/>
 				<Item Name="3D Surface Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Surface/3D Surface Datatype/3D Surface Datatype.lvclass"/>
 				<Item Name="3D Surface.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Surface/3D Surface/3D Surface.lvclass"/>
 				<Item Name="3D Surface.xctl" Type="XControl" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Surface/3D Surface XCtrl/3D Surface.xctl"/>
@@ -481,6 +484,7 @@
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_ExcelFile.lvlib" Type="Library" URL="/&lt;vilib&gt;/express/express shared/NI_ExcelFile/NI_ExcelFile.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_Math Plot Private Lib.lvlib" Type="Library" URL="/&lt;vilib&gt;/Math Plots/Plot Private Lib/NI_Math Plot Private Lib.lvlib"/>
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
@@ -553,13 +557,8 @@
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
 			<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="../Traverse/ICNC/sous-VI/Error Converter (ErrCode or Status).vi"/>
-			<Item Name="ICNC Connect.vi" Type="VI" URL="../Traverse/ICNC/ICNC_Connect/ICNC Connect.vi"/>
-			<Item Name="ICNC Error Reset.vi" Type="VI" URL="../Traverse/ICNC/ICNC Error Reset.vi"/>
-			<Item Name="ICNC Move Profile Abs Async.vi" Type="VI" URL="../Traverse/ICNC/ICNC_Move/ICNC Move Profile Abs Async.vi"/>
 			<Item Name="ICNC Read EEPROM.vi" Type="VI" URL="/&lt;menus&gt;/Categories/ICNC/ICNC_Read/ICNC Read EEPROM.vi"/>
-			<Item Name="ICNC Stop Motors All And Clear.vi" Type="VI" URL="../Traverse/ICNC/ICNC_Stop/ICNC Stop Motors All And Clear.vi"/>
 			<Item Name="ICNC Write EEPROM.vi" Type="VI" URL="/&lt;menus&gt;/Categories/ICNC/ICNC_Write/ICNC Write EEPROM.vi"/>
-			<Item Name="ICNC Write Position.vi" Type="VI" URL="../Traverse/ICNC/ICNC_Write/ICNC Write Position.vi"/>
 			<Item Name="ICNC2.lvlib" Type="Library" URL="../Traverse/ICNC/ICNC2.lvlib"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">

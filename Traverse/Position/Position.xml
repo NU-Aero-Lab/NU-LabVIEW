@@ -1,5 +1,5 @@
 <Cluster>
-<Name>Position Info IN</Name>
+<Name>Position Info</Name>
 <NumElts>4</NumElts>
 <Array>
 <Name>Current Position ABS</Name>
