@@ -564,6 +564,9 @@
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="move X Relative.vi" Type="VI" URL="../Traverse/MainFolder/move X Relative.vi"/>
+			<Item Name="move Y Relative.vi" Type="VI" URL="../Traverse/MainFolder/move Y Relative.vi"/>
+			<Item Name="move Z Relative.vi" Type="VI" URL="../Traverse/MainFolder/move Z Relative.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
