@@ -43,6 +43,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="beat_test.vi" Type="VI" URL="../../../../Desktop/Measurments/beat_test.vi"/>
+		<Item Name="Force mapping VI.vi" Type="VI" URL="/E/Wind Tunnel Test Data/labview/Force mapping VI.vi"/>
 		<Item Name="Sensor Tests.vi" Type="VI" URL="../../../../Desktop/Sensor Tests.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -514,6 +515,7 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="SetT0.vi" Type="VI" URL="/&lt;vilib&gt;/express/express signal manip/GetorSetDDTAttributes/Set DDT Attributes/SetT0.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="specialProperties.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/specialProperties.ctl"/>
 				<Item Name="sub Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/sub Waveform Array To Dynamic.vi"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
@@ -564,6 +566,7 @@
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="mainWTControl.vi" Type="VI" URL="../Documents/WT-Control/NU-LabVIEW/Globals/mainWTControl.vi"/>
 			<Item Name="move X Relative.vi" Type="VI" URL="../Traverse/MainFolder/move X Relative.vi"/>
 			<Item Name="move Y Relative.vi" Type="VI" URL="../Traverse/MainFolder/move Y Relative.vi"/>
 			<Item Name="move Z Relative.vi" Type="VI" URL="../Traverse/MainFolder/move Z Relative.vi"/>
