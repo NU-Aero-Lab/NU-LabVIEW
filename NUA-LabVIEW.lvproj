@@ -520,7 +520,6 @@
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="specialProperties.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/specialProperties.ctl"/>
 				<Item Name="sub Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/sub Waveform Array To Dynamic.vi"/>
-				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
@@ -561,7 +560,6 @@
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
 			<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="../Traverse/ICNC/sous-VI/Error Converter (ErrCode or Status).vi"/>
-			<Item Name="getWriteProcessedFile.vi" Type="VI" URL="../Acquisition/getWriteProcessedFile.vi"/>
 			<Item Name="ICNC Read EEPROM.vi" Type="VI" URL="/&lt;menus&gt;/Categories/ICNC/ICNC_Read/ICNC Read EEPROM.vi"/>
 			<Item Name="ICNC Write EEPROM.vi" Type="VI" URL="/&lt;menus&gt;/Categories/ICNC/ICNC_Write/ICNC Write EEPROM.vi"/>
 			<Item Name="ICNC2.lvlib" Type="Library" URL="../Traverse/ICNC/ICNC2.lvlib"/>
