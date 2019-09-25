@@ -43,7 +43,6 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="beat_test.vi" Type="VI" URL="../../../../Desktop/Measurments/beat_test.vi"/>
-		<Item Name="Force mapping VI.vi" Type="VI" URL="/E/Wind Tunnel Test Data/labview/Force mapping VI.vi"/>
 		<Item Name="Sensor Tests.vi" Type="VI" URL="../../../../Desktop/Sensor Tests.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">

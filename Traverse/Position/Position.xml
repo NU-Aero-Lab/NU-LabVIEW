@@ -11,10 +11,18 @@
 </Array>
 <Array>
 <Name>Current Position</Name>
-<Dimsize>0</Dimsize>
+<Dimsize>3</Dimsize>
 <DBL>
 <Name>Numeric</Name>
-<Val></Val>
+<Val>1311.25000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>810.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>-60.00000000000003</Val>
 </DBL>
 </Array>
 <Array>
